@@ -1,0 +1,229 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 1.15rem !important;
+}
+
+i.icon {
+    font-family: Icons !important;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+i.icon:last-child {
+    margin-left: 0.75rem;
+}
+
+i.icon, i.icons {
+    font-size: 1.15rem;
+}
+
+.ig-posts-col {
+    padding: 0 !important;
+}
+
+.item {
+    text-align: center !important;
+}
+
+.ui.fluid.dropdown {
+    margin-bottom: 1rem !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.ig-posts {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+#igpro, #igback {
+  display: none;
+}
+
+.ig-post {
+    display: inline-block;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 33.33%;
+    padding-top: 33.33%;
+    position: relative;
+}
+
+.ig-post:first-child {
+    border-left: 2px solid white;
+}
+
+.ig-post:last-child {
+    border-right: 2px solid white;
+}
+
+.ig-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.ig-extras {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.logo-img {
+    margin-top: 1rem;
+    margin-bottom: -1rem !important;
+    max-width: 46.67% !important;
+}
+
+.ui.header {
+    font-weight: 400 !important;
+    color: #333;
+}
+
+input {
+    background-color: rgb(250, 250, 250) !important;
+    color: #262626 !important;
+}
+
+input::placeholder {
+    color: #999 !important;
+}
+
+button {
+    margin-top: 0.75rem !important;
+    font-weight: 600 !important;
+}
+
+.ui.horizontal.divider {
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.ui.divider {
+    margin-bottom: -1rem !important;
+}
+
+.username-img {
+    border-radius: .28571429rem !important;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0.75rem !important;
+}
+
+li {
+    font-weight: 400 !important;
+}
+
+strong {
+    font-weight: 500 !important;
+}
+
+.ui.list {
+    text-align: left !important;
+}
+
+.ui.header.ig-username {
+    text-align: left;
+    font-weight: 500 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ui.header.ig-fullname {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: left;
+    font-weight: 400 !important;
+}
+
+.pt0 {
+    padding-top: 0 !important;
+}
+
+.ui.header.h4-top {
+    margin-bottom: 0 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+.ui.divider.chuj {
+    margin-bottom: 0.5rem !important;
+    margin-top: 1.25rem !important;
+}
+
+.ui.header.h4-bottom {
+    margin-top: 0 !important;
+    color: #999 !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+ago {
+    font-weight: 400 !important;
+    color: #444;
+}
+
+.ui.header.lvis {
+    margin-bottom: 0.5rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+}
+
+.visitor {
+    margin-bottom: 1rem !important;
+}
+
+h5.ui.header {
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+}
+
+h6.ui.header {
+    font-size: 1rem !important;
+}
+
+h6.ui.header.h4-top {
+    font-size: 1.25rem !important;
+}
+
+h6.ui.header.h4-bottom {
+    color: #333 !important;
+}
+
+h4.ui.header {
+    font-size: 1.2rem !important;
+}
+
+.h4 {
+    margin-top: -1rem !important;
+    margin-bottom: 0 !important;
+}
+
+.essa {
+    margin-top: 1rem !important;
+    border-radius: .28571429rem !important;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    background-color: #fafafa;
+}
